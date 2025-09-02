@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina de Formulario</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body> <!--Elemento Pai-->
+
+    <div class="form-container"> <!--Elemento Filho (Body)-->
+
+        <form action=""> <!--Elemento Filho (form-container), neto (Body)-->
+
+
+            <div class="text-title">  <!--Elemento Filho (form), neto (form-container), bisneto (body)-->
+                <h2>SIGN IN</h2> <!--Elemento Filho (text-title), neto (form), bisneto (form-container), trineto (body)-->
+            </div>
+
+            <div class="input-container">  <!--Elemento Filho (form), neto (form-container), bisneto (body)-->
+                <input type="text" name="text" id="text" placeholder="Digite o seu nome"> <!--Elemento Filho (input-container), neto (form), bisneto (form-container), trineto (body)-->
+                <label for="text"></label> <!--Elemento Filho (input-container), neto (form), bisneto (form-container), trineto (body)-->
+                <i data-feather="user"></i> <!--Elemento Filho (input-container), neto (form), bisneto (form-container), trineto (body)-->
+            </div>
+
+            
+            <div class="input-container">  <!--Elemento Filho (form), neto (form-container), bisneto (body)-->
+                <input type="email" name="email" id="email" placeholder="Digite seu melhor E-mail"> <!--Elemento Filho (input-container), neto (form), bisneto (form-container), trineto (body)-->
+                <label for="email"></label> <!--Elemento Filho (input-container), neto (form), bisneto (form-container), trineto (body)-->
+                <i data-feather="mail"></i> <!--Elemento Filho (input-container), neto (form), bisneto (form-container), trineto (body)-->
+            </div>
+
+            <div class="options-container">  <!--Elemento Filho (form), neto (form-container), bisneto (body)-->
+                <div class="checkbox"> <!--Elemento Filho (options-container), neto (form), bisneto (form-container), trineto (body)-->
+                    <input type="checkbox" id="remember" name="remember">  <!--Elemento Filho (checkbox), neto (options-container), bisneto (form), trineto (form-container),quartoneto (body)-->
+                    <label for="remember">Lembre de mim</label> <!--Elemento Filho (checkbox), neto (options-container), bisneto (form), trineto (form-container),quartoneto (body)-->
+                </div>
+
+                <div class="password"> <!--Elemento Filho (options-container), neto (form), bisneto (form-container), trineto `body)-->
+                    <a href="#">Esqueceu a senha?</a> <!--Elemento Filho (password), neto (options-container), bisneto (form), trineto (form-container),quartoneto (body)-->
+                </div>
+
+            </div>
+
+            <div class="button-container"> <!--Elemento Filho (form), neto (form-container), bisneto (body)-->
+                <input type="submit" value="Login"> <!--Elemento Filho (button-container), neto (form), bisneto (form-container), trineto (body)-->
+            </div>
+
+            <div class="paragrafo-container">
+                <p>Ou crie uma conta</p>
+            </div>
+
+             <div class="icons-container">
+                <div class="icons-media">
+                    <i data-feather="instagram"></i> 
+                </div>
+
+                 <div class="icons-media">
+                    <i data-feather="facebook"></i> 
+                </div>
+
+                 <div class="icons-media">
+                    <i data-feather="twitter"></i> 
+                </div>
+            </div>
+
+        </form>
+    
+    </div>
+    
+
+    <script>
+      feather.replace();
+    </script>
+</body>
+</html>
